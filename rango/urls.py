@@ -20,8 +20,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('rango_app.urls'))
 ]
-
-#TODO explain What I am doing
-
-# This project/urls.py file has three ways of functioning, I picked up the third one.
-# I create my own URL file in app/urls.py and then I included here with include().
