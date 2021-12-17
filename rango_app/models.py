@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-class Receipt(models.Model):
+class Receipts(models.Model):
     """A model of a receipt created by the user."""
     title = models.CharField(max_length=200)
     chef = models.ForeignKey(User, on_delete=models.CASCADE, related_name='receipts')

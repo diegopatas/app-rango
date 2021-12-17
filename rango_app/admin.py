@@ -1,4 +1,4 @@
 from django.contrib import admin
-from . models import Receipt
+from . models import Receipts
 
-admin.site.register(Receipt)
+admin.site.register(Receipts)
